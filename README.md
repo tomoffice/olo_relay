@@ -37,3 +37,26 @@ config.json <- add this file to root path
     "ip":"0.0.0.0",
     "port":8001
 ```
+```javascript
+function sendAPI(time,email,aff,group,format,cnn) {
+  //time_text,email_text,aff_text,group_opt,format_opt,cnn_opt,....checked(12{L})
+  var formData = {
+    'time':time,
+    'email':email,
+    'aff':aff,
+    'group':group,
+    'format':format,
+    'cnn':cnn
+  };
+  var options = {
+    'method': 'post',
+    'payload': formData,
+    'headers': {
+        'Bearer':'XXXX'
+    }
+  };
+
+  var response = UrlFetchApp.fetch('http://XXX.XXX.XXX.XXX:8001', options);
+  Logger.log(response.getContentText());
+}
+```
