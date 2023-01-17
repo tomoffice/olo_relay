@@ -1,6 +1,6 @@
 # Purpose
 
-receive google app script fetch golang server to trigger matlab ml app
+api for google app script to trigger matlab ml model app
 
 config.json
 
