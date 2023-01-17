@@ -2,7 +2,7 @@
 
 api for google app script to trigger matlab ml model app
 
-config.json
+config.json <- add this file to root path
 
 ```json
 "postArgs": [
