@@ -1,6 +1,6 @@
 # Purpose
 
-this is some kind of api for google form and trigger matlab ml model app
+this is some kind of api for google form relay service and trigger matlab ml model app via command line
 
 config.json <- add this file to root path
 
