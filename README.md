@@ -37,6 +37,7 @@ config.json <- add this file to root path
     "ip":"0.0.0.0",
     "port":8001
 ```
+#app script
 ```javascript
 function sendAPI(time,email,aff,group,format,cnn) {
   //time_text,email_text,aff_text,group_opt,format_opt,cnn_opt,....checked(12{L})
