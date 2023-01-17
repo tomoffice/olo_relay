@@ -1,6 +1,6 @@
 # Purpose
 
-api for google form and trigger matlab ml model app
+this is some kind of api for google form and trigger matlab ml model app
 
 config.json <- add this file to root path
 
