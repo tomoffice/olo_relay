@@ -1,0 +1,33 @@
+{
+    "postArgs": [
+        {
+            "info": "時間",
+            "key": "time"
+        },
+        {
+            "info": "電子郵件",
+            "key": "email"
+        },
+        {
+            "info": "要求機構",
+            "key": "aff"
+        },
+        {
+            "info": "分類",
+            "key": "group"
+        },
+        {
+            "info": "影像格式",
+            "key": "format"
+        },
+        {
+            "info": "神經網路模型",
+            "key": "cnn"
+        }
+    ],
+    "httpToken": "MVsjxBGD62lcmGTGQFWq",
+    "notifyToken": "5Kz1ONRLGNKIQaqvyesk9YjlNCjCS61OUbLqvRKcWwT",    
+    "pattern":"/api",
+    "ip":"0.0.0.0",
+    "port":8001
+}
