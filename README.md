@@ -1,6 +1,6 @@
 # Purpose
 
-api for google app script to trigger matlab ml model app
+api for google form and trigger matlab ml model app
 
 config.json <- add this file to root path
 
